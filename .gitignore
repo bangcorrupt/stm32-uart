@@ -1,3 +1,5 @@
 bld/
 gdb.txt
 *.geany
+nohup.out
+*.bin
