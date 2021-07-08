@@ -1,0 +1,21 @@
+F411    PCM5102A    LED     UART1   Description
+--------------------------------------------------------------------
+5V      VCC
+-       3V3
+GND     GND
+GND     FLT                         Filter Select = Normal latency
+GND     DMP                         De-emphasis off
+GND     SCL                         Generate I2S_MCK internally
+B13     BCK                         I2S_BCK (Bit Clock)
+B15     DIN                         I2S_SDI (Data Input)
+B12     LCK                         I2S_WS (LR Clock)
+GND     FMT                         Format = I2S
+A8      XMT                         Mute control
+A6      -                           I2S_MCK (not used)
+--------------------------------------------------------------------
+C13             on-board            Diagnostic
+--------------------------------------------------------------------
+B6                         TX       Serial console
+B7                         RX
+GND                        GND
+--------------------------------------------------------------------
