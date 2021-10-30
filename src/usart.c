@@ -68,13 +68,13 @@ void USARTTx(uint8_t dat) {
     // Load the Data
     USART1->DR = dat;
     while (!(USART1->SR & USART_SR_TC));  // Wait for transmission
-    Flash(0x800);
+    // Flash(0x800);
 }
 
 
 
 uint8_t USARTRx(void) {
-    Flash(0x800);
+    // Flash(0x800);
     while (!(USART1->SR & USART_SR_RXNE));  // Wait for data
     return USART1->DR;
 }
